@@ -1,0 +1,15 @@
+.badge-primary-light, a.badge-primary-light {
+    background-color: rgba(220,53,69,.15);
+    color: color-yiq(rgba(220,53,69,.15));
+    color: #dc3545;
+}
+.badge-danger-light, a.badge-danger-light {
+    background-color: rgba(220,53,69,.15);
+    color: color-yiq(rgba(220,53,69,.15));
+    color: #dc3545;
+}
+.badge-success-light, a.badge-success-light {
+    background-color: rgba(28,187,140,.15);
+    color: color-yiq(rgba(28,187,140,.15));
+    color: #1cbb8c;
+}
