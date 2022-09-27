@@ -45,7 +45,6 @@ export class Admin extends Component {
       charts: false,
       remove: false,
     });
-    console.log(this.state);
   };
 
   productsRemove = (event) => {
