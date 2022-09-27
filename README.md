@@ -1,3 +1,4 @@
+Live: https://react-e-commerce-and-admin-panel.vercel.app/
 ### Week
 
 ###### LAST WEEK
@@ -24,28 +25,29 @@ E-Commerce Website
 This project was built as a joint structure that hosts the shopping site and the admin panel. It contains all the functions that a shopping site should have basically. You can track the number of products, add or remove products from the admin panel section. You can review the website published by the project to experience other features other than those mentioned here.
 
 * Home Page
-[![HomePage.gif](https://s4.gifyu.com/images/HomePage.gif)](https://gifyu.com/image/S3823)
+[![HomePage.gif](https://s5.gifyu.com/images/HomePage.gif)](https://gifyu.com/image/S3896)
 
-* Products
-[![ProductsPage.gif](https://s5.gifyu.com/images/ProductsPage.gif)](https://gifyu.com/image/S38p6)
 
-* Cart Page
-[![CartPage.gif](https://s5.gifyu.com/images/CartPage.gif)](https://gifyu.com/image/S38pU)
+[* Products](https://s4.gifyu.com/images/ProductsPage.gif)
 
-* About Us
-[![AboutUsPage.gif](https://s5.gifyu.com/images/AboutUsPage.gif)](https://gifyu.com/image/S38LL)
 
-* Contact Page
-[![ContactPage.gif](https://s5.gifyu.com/images/ContactPage.gif)](https://gifyu.com/image/S38LE)
+[* Cart Page](https://s5.gifyu.com/images/CartPage.gif)
 
-* Admin/Dashboard Page(```to reach example: www.blabla.com/admin```)
-[![DashboardPage.gif](https://s4.gifyu.com/images/DashboardPage.gif)](https://gifyu.com/image/S38LZ)
 
-* Admin/Products Page
-[![AdminProductsPage.gif](https://s4.gifyu.com/images/AdminProductsPage.gif)](https://gifyu.com/image/S38Lf)
+[* About Us](https://s5.gifyu.com/images/AboutUsPage.gif)
 
-* Admin/Charts Page
-[![AdminChartsPage.gif](https://s5.gifyu.com/images/AdminChartsPage.gif)](https://gifyu.com/image/S38sS)
+
+[* Contact Page](https://s5.gifyu.com/images/ContactPage.gif)
+
+* Admin/Dashboard Page(to reach: [/admin](https://react-e-commerce-and-admin-panel.vercel.app/admin))
+
+[* Admin/Dashboard](https://s4.gifyu.com/images/DashboardPage.gif)
+
+
+[* Admin/Products Page](https://s4.gifyu.com/images/AdminProductsPage.gif)
+
+
+[* Admin/Charts Page](https://s5.gifyu.com/images/AdminChartsPage.gif)
 
 ------------
 
