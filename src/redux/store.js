@@ -4,7 +4,7 @@ import cartSlice from "../components/cart/cartSlice";
 import adminSlice from "../components/admin/adminSlice"
 import api from "./middleware/index"
 
-import storage from "redux-persist/lib/storage/session";
+import storage from "redux-persist/lib/storage";
 import { persistStore, persistReducer } from 'redux-persist'
 
 const persistConfig = {
