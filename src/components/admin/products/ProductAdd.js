@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import {productAdd} from "../../products/productsSlice"
+import { productAdd } from "../../products/productsSlice";
 
 export class ProductsAdd extends Component {
   constructor(props) {
@@ -16,18 +16,17 @@ export class ProductsAdd extends Component {
       rating: {
         rate: 0,
         count: 0,
-      }
+      },
     };
   }
 
   productAdd() {
-    const newProductData = this.state
-    this.props.productAdd(newProductData)
-    console.log(this.state)
+    const newProductData = this.state;
+    this.props.productAdd(newProductData);
+
   }
 
   render() {
-
     return (
       <>
         <div className="col-lg-12 mt-4">
@@ -38,7 +37,14 @@ export class ProductsAdd extends Component {
             <div className="row">
               <div className="col-lg-6">
                 <div className="mb-3">
-                  <select className="form-select" onChange={(e)=> this.setState({category : e.target.value})} aria-label="Large select">
+                  <select
+                    className="form-select"
+                    onChange={(e) =>
+                      this.setState({ category: e.target.value })
+                    }
+                    aria-label="Large select"
+                    value={this.state.category}
+                  >
                     <option defaultValue="">Select product category</option>
                     <option value="women's clothing">Women's clothing</option>
                     <option value="men's clothing">Men's clothing</option>
@@ -55,7 +61,8 @@ export class ProductsAdd extends Component {
                     id="exampleInputName"
                     aria-describedby="nameHelp"
                     placeholder="Price"
-                    onChange={(e)=> this.setState({price : e.target.value})}
+                    onChange={(e) => this.setState({ price: e.target.value })}
+                    value={this.state.price}
                   />
                 </div>
               </div>
@@ -70,7 +77,8 @@ export class ProductsAdd extends Component {
                 id="productTitle"
                 aria-describedby="productTitle"
                 placeholder="Example Mens Casual Slim Fit"
-                onChange={(e)=> this.setState({title : e.target.value})}
+                onChange={(e) => this.setState({ title: e.target.value })}
+                value={this.state.title}
               />
             </div>
             <div className="mb-3">
@@ -83,7 +91,8 @@ export class ProductsAdd extends Component {
                 id="productDescription"
                 cols="30"
                 rows="5"
-                onChange={(e)=> this.setState({description : e.target.value})}
+                onChange={(e) => this.setState({ description: e.target.value })}
+                value={this.state.description}
               ></textarea>
             </div>
             <div className="mb-3">
@@ -96,11 +105,16 @@ export class ProductsAdd extends Component {
                 id="exampleInputName"
                 aria-describedby="nameHelp"
                 placeholder="Örn:https://im.ge/"
-                onChange={(e)=> this.setState({image : e.target.value})}
+                onChange={(e) => this.setState({ image: e.target.value })}
+                value={this.state.image}
               />
             </div>
             <div className="d-grid col-2 m-auto">
-              <button className="btn btn-add p-2 text-white" type="button" onClick={()=> this.productAdd()}>
+              <button
+                className="btn btn-add p-2 text-white"
+                type="button"
+                onClick={() => this.productAdd()}
+              >
                 Add
               </button>
             </div>
@@ -114,6 +128,6 @@ const mapStateToProps = (state) => ({
   products: state.products.list,
 });
 const mapDispatchToProps = {
-  productAdd : productAdd
+  productAdd: productAdd,
 };
 export default connect(mapStateToProps, mapDispatchToProps)(ProductsAdd);
