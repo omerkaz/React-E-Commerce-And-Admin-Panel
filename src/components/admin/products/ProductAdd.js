@@ -23,7 +23,11 @@ export class ProductsAdd extends Component {
   productAdd() {
     const newProductData = this.state;
     this.props.productAdd(newProductData);
-
+    this.setState({ category: "" })
+    this.setState({ price: "" })
+    this.setState({ title: "" })
+    this.setState({ description: "" })
+    this.setState({ image: "" })
   }
 
   render() {
